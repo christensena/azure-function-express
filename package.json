@@ -1,6 +1,6 @@
 {
-  "name": "azure-function-express",
-  "version": "2.0.0",
+  "name": "@christensena/azure-function-express",
+  "version": "2.1.1",
   "sideEffects": false,
   "description": "Allows Express usage with Azure Function",
   "keywords": [
@@ -28,8 +28,10 @@
     "email": "merlicco@gmail.com"
   },
   "contributors": [
-    "Yves Merlicco <merlicco@gmail.com>"
+    "Yves Merlicco <merlicco@gmail.com>",
+    "Alan Christensen <alan@christensen.org.nz>"
   ],
+  "private": false,
   "scripts": {
     "bootstrap": "npm install",
     "build": "rm -rf lib && babel src --out-dir lib",
